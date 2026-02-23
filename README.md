@@ -1,9 +1,22 @@
-# Intuition on Convolutions
+# 🧠 Intuition on Convolutions – Challenge Explanation
 
-Now is a great time to build a more solid understanding of Computer Vision. 
+## 📌 Overview
 
-How does a Convolutional Neural Network analyze images?
+In this challenge, you will build an intuitive understanding of how **Convolutional Neural Networks (ConvNets)** process images.
 
-In this `Intuition on Convolutions` challenge, you will:
-- apply kernels to images
-- discover how an image is perceived by a ConvNet through its convolutional layers (the `layers.Conv2D`).
+Specifically, you will:
+
+- Apply **kernels (filters)** to images  
+- Observe how images transform through **convolutional layers (`Conv2D`)**  
+- Understand how a ConvNet “sees” and extracts features  
+
+This exercise focuses on building **visual intuition**, not just coding.
+
+---
+ — Applying Kernels to Images
+
+## 🔹 What Is a Kernel?
+
+A **kernel** (or filter) is a small matrix used to extract specific features from an image.
+
+Example a 3×3 kernel
